@@ -1,0 +1,251 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+}
+header {
+  display: flex;
+  background-attachment: fixed;
+  height: 60px;
+  width: 100%;
+  font-weight: bold;
+  position: fixed;
+  background-color: white;
+}
+.logo {
+  padding: 20px;
+  margin-left: 420px;
+  width: 260px;
+}
+.link {
+  position: absolute;
+  top: 20px;
+  left: 900px;
+}
+
+.link1 {
+  color: #5ccdb2;
+  padding: 15px;
+}
+.link2 {
+  color: gray;
+  padding: 15px;
+}
+.link3 {
+  color: gray;
+}
+.logo1 {
+  /* position: absolute; */
+  /* left: 675px; */
+  width: 60px;
+  margin: 1% 50%;
+}
+.text {
+  text-align: center;
+  padding-top: 60px;
+  color: #5ccdb2;
+}
+.text1 {
+  display: flex;
+  width: 800px;
+  padding-left: 300px;
+  color: grey;
+  margin: 10px;
+  margin-left: 300px;
+}
+
+.text2 {
+  display: flex;
+  justify-content: space-around;
+  height: 350px;
+  margin: 80px;
+}
+.text3 {
+  width: 450px;
+  height: 370px;
+  background-color: #5ccdb2;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 9px;
+}
+.text4 {
+  width: 450px;
+  height: 370px;
+  background-color: #3d83df;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+  border-radius: 9px;
+}
+.title {
+  font-size: 18px;
+}
+.Img1 {
+  padding-left: 153px;
+}
+.Img2 {
+  position: absolute;
+  left: 378px;
+
+  top: 407px;
+}
+
+.links {
+  display: flex;
+  width: 100%;
+  height: 250px;
+  padding-top: 60px;
+  padding-left: 30px;
+}
+.text5 {
+  width: 280px;
+  font-size: 22px;
+  color: #5ccdb2;
+  font-family: sans-serif;
+}
+.link3 {
+  color: grey;
+  padding: 20px;
+}
+.link3:hover {
+  color: grey;
+
+  cursor: pointer;
+}
+
+.link3:hover {
+  fill: #5ccdb2;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+}
+.title3 {
+  font-size: 20px;
+  color: #5ccdb2;
+  text-align: center;
+  width: 300px;
+  padding-top: 20px;
+}
+.text6 {
+  text-align: center;
+  width: 420px;
+  color: grey;
+  font-size: 14px;
+}
+
+.Pic {
+  display: flex;
+  flex: 3 1;
+  justify-content: space-around;
+  padding: 2%;
+  flex-wrap: wrap;
+  /* width: 80%; */
+  margin: 5% 15%;
+}
+.Pic div {
+  margin: 2%;
+}
+.foot {
+  display: flex;
+  width: 100%;
+  height: 150px;
+  justify-content: center;
+}
+.text-foot {
+  text-align: center;
+  width: 700px;
+  font-size: 12px;
+  color: grey;
+}
+.main {
+  display: flex;
+  width: 100%;
+  height: 600px;
+  background-color: #d8f6f6;
+}
+.main-title {
+  color: #5ccdb2;
+  font-size: 30px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  padding-left: 250px;
+  padding-top: 60px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main-text {
+  color: grey;
+  font-size: 15px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
+}
+.main-logo {
+  width: 498px;
+}
+.main-carre {
+  position: absolute;
+  width: 220px;
+  height: 240px;
+  background-color: white;
+  left: 800px;
+  top: 950px;
+  border-radius: 9px;
+}
+.main-title1 {
+  color: #5ccdb2;
+  font-size: 25px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "Times New Roman", Times, serif;
+}
+.main-text1 {
+  color: grey;
+  font-size: 12px;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+.main-carre2 {
+  position: absolute;
+  width: 220px;
+  height: 240px;
+  background-color: white;
+  left: 1040px;
+  top: 920px;
+  border-radius: 9px;
+}
+
+.main-carre3 {
+  position: absolute;
+  width: 220px;
+  height: 240px;
+  background-color: white;
+  left: 800px;
+  top: 1210px;
+  border-radius: 9px;
+}
+.main-carre4 {
+  position: absolute;
+  width: 220px;
+  height: 240px;
+  background-color: white;
+  left: 1040px;
+  top: 1180px;
+  border-radius: 9px;
+}
+
+div.polaroid {
+  width: 310px;
+  height: 340px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  cursor: pointer;
+  text-align: left;
+}
+
+.container {
+  padding: 10px;
+}
